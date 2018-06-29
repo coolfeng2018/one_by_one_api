@@ -1,0 +1,88 @@
+body, ul, li, p, h1, h2, h3, h4, h5, h6, img, br, hr, table, tr, td, dl, dt, dd, form,div {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: '微软雅黑', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    -webkit-text-size-adjust: none;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*overflow-y:auto;*/
+}
+.colorHtml,.colorBody{
+    height: auto;
+}
+
+.body_wrap{
+    height:auto;
+    min-height:100%;
+    _height:100%;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+/*一般链接*/
+a {
+    touch-action: manipulation;
+    text-decoration: none;
+    user-select: none;
+    color: #000;
+}
+
+a:hover {
+    touch-action: manipulation;
+    text-decoration: none;
+    user-select: none;
+    color: #FFF;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.wrap{
+    width: 100%;
+    height: auto;
+}
+
+input{
+    outline: 0;
+    border: 0;
+    padding: 0;
+}
+input:focus {
+    color: #000;
+    outline: 0;
+    outline: thin dotted \9;
+    border-color: rgba(82, 168, 236, 0.8);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
